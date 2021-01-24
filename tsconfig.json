@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES2020",
+      "ES5",
+      "DOM"
+    ],
+    "typeRoots": ["./src/types"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ES5",
+    "strict": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "sourceMap": false
+  },
+  "exclude": ["./node_modules/**/*", "./build/**/*"],
+  "include": ["./src/**/*"]
+}
